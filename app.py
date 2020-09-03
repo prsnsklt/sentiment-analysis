@@ -116,12 +116,12 @@ def main():
             ])
             fig.update_layout(width=850, height=400)
             st.plotly_chart(fig)
-            st.markdown(
-                """
-                <h3>Menampilkan Bentuk Data</h3>
-                """, unsafe_allow_html=True) 
-            st.write(dataTweet.shape)
-            st.write("Jumlah baris ",dataTweet.shape[0] ," Jumlah kolom ", dataTweet.shape[1])
+#             st.markdown(
+#                 """
+#                 <h3>Menampilkan Bentuk Data</h3>
+#                 """, unsafe_allow_html=True) 
+#             st.write(dataTweet.shape)
+#             st.write("Jumlah baris ",dataTweet.shape[0] ," Jumlah kolom ", dataTweet.shape[1])
     
 
         ################################## CASE FOLDING #######################################    
