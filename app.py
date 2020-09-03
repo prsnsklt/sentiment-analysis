@@ -8,7 +8,6 @@ from tqdm import tqdm_notebook as tqdm
 import pickle
 from PIL import Image
 import matplotlib.pyplot as plt
-from IPython import get_ipython
 import numpy as np
 import altair as alt
 from nltk.corpus import stopwords
@@ -32,7 +31,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 import itertools
 
-# get_ipython().magic(u'matplotlib inline')
 
 image_url = ('gambarcovid.jpg')
 
