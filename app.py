@@ -10,9 +10,9 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import numpy as np
 import altair as alt
-from nltk.corpus import stopwords
-from nltk.stem import SnowballStemmer
-from nltk.tokenize import word_tokenize
+# from nltk.corpus import stopwords
+# from nltk.stem import SnowballStemmer
+# from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer, TfidfVectorizer
 from sklearn.svm import SVC
 from sklearn import metrics
@@ -26,7 +26,7 @@ from sklearn.metrics import confusion_matrix, roc_auc_score, recall_score, preci
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 import seaborn as sns
-import nltk
+# import nltk
 import plotly.express as px
 import plotly.graph_objects as go
 import itertools
