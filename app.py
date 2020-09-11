@@ -583,7 +583,7 @@ def main():
         pie_data = df['sentiment'].value_counts()
         def func(pct, allvals):
             absolute = int(pct/100.*np.sum(allvals))
-            return "{:.1f}%\n({:d})".format(pct, absolute)
+            return "{:.1f}%)".format(pct, absolute)
         
         fig1, ax1 = plt.subplots()
         ax1.pie(pie_data, autopct=lambda pct: func(pct, pie_data), textprops=dict(color="w"))
